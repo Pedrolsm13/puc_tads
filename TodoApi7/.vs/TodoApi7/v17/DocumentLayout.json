@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "TodoApi7\\Controllers\\TodoItemsController.cs",
               "ToolTip": "C:\\Users\\pedro\\Workspace\\puc_tads\\TodoApi7\\TodoApi7\\Controllers\\TodoItemsController.cs",
               "RelativeToolTip": "TodoApi7\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGYAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T21:00:08.128Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "TodoApi7\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T20:47:42.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T20:47:42.722Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "TodoApi7\\Models\\TodoContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T20:43:01.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T20:43:01.193Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "TodoApi7\\Models\\TodoItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T20:38:07.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T20:38:07.735Z"
             }
           ]
         }
