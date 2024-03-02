@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Modelo7.props" />
+</Project>
