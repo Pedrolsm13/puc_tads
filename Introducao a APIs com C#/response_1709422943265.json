@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Pedro Lucas Serra Moura",
+    "email": "plserramoura@gmail.com",
+    "senha": "puc123456",
+    "codigodePessoa": 809342,
+    "lembretedeSenha": "senha padrao",
+    "idade": 29,
+    "sexo": "M"
+  },
+  {
+    "id": 2,
+    "nome": "Joao Lucas Serra Alves",
+    "email": "jlserraalves@gmail.com",
+    "senha": "123456puc",
+    "codigodePessoa": 808232,
+    "lembretedeSenha": "senha email",
+    "idade": 20,
+    "sexo": "M"
+  },
+  {
+    "id": 3,
+    "nome": "Lucas Serra Alves",
+    "email": "lserraalves@gmail.com",
+    "senha": "123456puc",
+    "codigodePessoa": 808232,
+    "lembretedeSenha": "senha email",
+    "idade": 20,
+    "sexo": "M"
+  }
+]
