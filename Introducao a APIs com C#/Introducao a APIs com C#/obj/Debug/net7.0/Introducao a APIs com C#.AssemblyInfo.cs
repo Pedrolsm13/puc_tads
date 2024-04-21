@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Introducao a APIs com C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a923d924708478ed9b8d979f400d9298441d6454")]
 [assembly: System.Reflection.AssemblyProductAttribute("Introducao a APIs com C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Introducao a APIs com C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

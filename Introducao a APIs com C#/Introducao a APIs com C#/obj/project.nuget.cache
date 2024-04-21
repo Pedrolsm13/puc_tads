@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MpuiDGODdYbdoiHxYaaqUxWOzJHEcQNU6VIY7OMWjVwYnxrkK4GsxFQlkKC+fJM0eOCpy9suH/5HQ4ladWgIXQ==",
+  "dgSpecHash": "qUJNAv4uGj49thMvqjwsfUyM2SU0YBRC3dMWvtBn+80xa3mTGeUWJDQiIgH6atvMBqzIKfHS7sJ0ccpOpSdcjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fiscal4\\source\\repos\\Introducao a APIs com C#\\Introducao a APIs com C#\\Introducao a APIs com C#.csproj",
+  "projectFilePath": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Introducao a APIs com C#\\Introducao a APIs com C#\\Introducao a APIs com C#.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fiscal4\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\fiscal4\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -215,10 +215,10 @@
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }
