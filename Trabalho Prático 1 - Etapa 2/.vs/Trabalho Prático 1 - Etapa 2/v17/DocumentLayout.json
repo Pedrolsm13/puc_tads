@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\models\\locadoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\models\\locadoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\models\\locadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\models\\locadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\controllers\\locadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\controllers\\locadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\models\\locadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\models\\locadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\models\\locadoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\models\\locadoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\trabalho pr\u00E1tico 1 - etapa 2\\trabalho pr\u00E1tico 1 - etapa 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18496BA6-9F8C-4854-BAFB-6D1EC80DF59A}|Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2.csproj|solutionrelative:trabalho pr\u00E1tico 1 - etapa 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240421211542_trabalhopratico.cs",
-              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs",
-              "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs",
-              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs",
-              "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Migrations\\20240421211542_trabalhopratico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T21:15:42.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LocadoraController.cs",
               "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\LocadoraController.cs",
               "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\LocadoraController.cs",
               "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\LocadoraController.cs",
               "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\LocadoraController.cs",
-              "ViewState": "AQIAAPwAAAAAAAAAAAAAAEoAAAAdAAAA",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAmwOwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:59:31.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Locadora.cs",
-              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
-              "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
-              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
-              "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:53:45.845Z",
+              "WhenOpened": "2024-04-28T16:36:52.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:36:46.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LocadoraContext.cs",
               "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\LocadoraContext.cs",
               "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\LocadoraContext.cs",
               "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\LocadoraContext.cs",
               "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\LocadoraContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:52:43.872Z",
+              "WhenOpened": "2024-04-28T16:36:27.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Locadora.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
+              "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
+              "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Models\\Locadora.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:36:21.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Program.cs",
               "RelativeDocumentMoniker": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Program.cs",
               "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Trabalho Pr\u00E1tico 1 - Etapa 2\\Program.cs",
               "RelativeToolTip": "Trabalho Pr\u00E1tico 1 - Etapa 2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABQAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T19:25:49.145Z",
               "EditorCaption": ""

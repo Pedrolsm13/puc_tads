@@ -30,7 +30,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // GET: api/Clientes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> GetCliente(long id)
+        public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
             var cliente = await _context.Clientes.FindAsync(id);
 
@@ -44,7 +44,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // PUT: api/Clientes/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCliente(long id, Cliente cliente)
+        public async Task<IActionResult> PutCliente(int id, Cliente cliente)
         {
             if (id != cliente.ClienteId)
             {
@@ -84,7 +84,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // DELETE: api/Clientes/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCliente(long id)
+        public async Task<IActionResult> DeleteCliente(int id)
         {
             var cliente = await _context.Clientes.FindAsync(id);
             if (cliente == null)
@@ -98,7 +98,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
             return NoContent();
         }
 
-        private bool ClienteExists(long id)
+        private bool ClienteExists(int id)
         {
             return _context.Clientes.Any(e => e.ClienteId == id);
         }
@@ -124,7 +124,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // GET: api/Veiculos/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Veiculo>> GetVeiculo(long id)
+        public async Task<ActionResult<Veiculo>> GetVeiculo(int id)
         {
             var veiculo = await _context.Veiculos.FindAsync(id);
 
@@ -138,7 +138,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // PUT: api/Veiculos/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutVeiculo(long id, Veiculo veiculo)
+        public async Task<IActionResult> PutVeiculo(int id, Veiculo veiculo)
         {
             if (id != veiculo.VeiculoId)
             {
@@ -178,7 +178,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // DELETE: api/Veiculos/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteVeiculo(long id)
+        public async Task<IActionResult> DeleteVeiculo(int id)
         {
             var veiculo = await _context.Veiculos.FindAsync(id);
             if (veiculo == null)
@@ -192,7 +192,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
             return NoContent();
         }
 
-        private bool VeiculoExists(long id)
+        private bool VeiculoExists(int id)
         {
             return _context.Veiculos.Any(e => e.VeiculoId == id);
         }
@@ -218,7 +218,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // GET: api/Reservas/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Reserva>> GetReserva(long id)
+        public async Task<ActionResult<Reserva>> GetReserva(int id)
         {
             var reserva = await _context.Reservas.FindAsync(id);
 
@@ -232,9 +232,9 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // PUT: api/Reservas/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutReserva(long id, Reserva reserva)
+        public async Task<IActionResult> PutReserva(int id, Reserva reserva)
         {
-            if (id != reserva.VeiculoId)
+            if (id != reserva.ReservaId)
             {
                 return BadRequest();
             }
@@ -260,10 +260,69 @@ namespace Introducao_a_APIs_com_C_.Controllers
             return NoContent();
         }
 
+        /*// PUT: api/Reservas/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutReserva(int id, Reserva reserva)
+        {
+            if (id != reserva.VeiculoId)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(reserva).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ReservaExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }*/
+
+        /*// POST: api/Reservas
+        [HttpPost]
+        public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
+        {
+            _context.Reservas.Add(reserva);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetReserva), new { id = reserva.ReservaId }, reserva);
+        }*/
+
         // POST: api/Reservas
         [HttpPost]
         public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
         {
+            // Validate if ClienteId and VeiculoId are provided
+            if (reserva.ClienteId == 0 || reserva.VeiculoId == 0)
+            {
+                return BadRequest("ClienteId and VeiculoId are required fields for creating a reservation.");
+            }
+
+            // Check if Cliente and Veiculo exist with the provided IDs
+            var cliente = await _context.Clientes.FindAsync(reserva.ClienteId);
+            var veiculo = await _context.Veiculos.FindAsync(reserva.VeiculoId);
+
+            if (cliente == null || veiculo == null)
+            {
+                return NotFound("Cliente or Veiculo not found with the provided IDs.");
+            }
+
+            // Assign the retrieved Cliente and Veiculo objects to the reserva
+            reserva.Cliente = cliente;
+            reserva.Veiculo = veiculo;
+
             _context.Reservas.Add(reserva);
             await _context.SaveChangesAsync();
 
@@ -272,7 +331,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
 
         // DELETE: api/Reservas/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteReserva(long id)
+        public async Task<IActionResult> DeleteReserva(int id)
         {
             var reserva = await _context.Reservas.FindAsync(id);
             if (reserva == null)
@@ -286,7 +345,7 @@ namespace Introducao_a_APIs_com_C_.Controllers
             return NoContent();
         }
 
-        private bool ReservaExists(long id)
+        private bool ReservaExists(int id)
         {
             return _context.Reservas.Any(e => e.VeiculoId == id);
         }
