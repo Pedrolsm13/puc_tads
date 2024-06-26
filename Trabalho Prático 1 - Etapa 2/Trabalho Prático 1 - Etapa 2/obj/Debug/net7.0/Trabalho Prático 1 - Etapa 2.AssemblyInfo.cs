@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trabalho Prático 1 - Etapa 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9952a26174ee6b6c7174ae668019647d11d249")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb05a3318344b93e53b22199ac5de050decda568")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trabalho Prático 1 - Etapa 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trabalho Prático 1 - Etapa 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

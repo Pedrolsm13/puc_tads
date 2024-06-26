@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oaxJQYRb6oa+khiLcyS6EWc4IkH6b3652CNvPfpToCh4oTuYnXIJ8WldwxBzMgt4MmPla2px48nBHjTKrq/iAQ==",
+  "dgSpecHash": "BZSMt7zUEvv1Ys65LRCS9bv1QdcfVLsNoTho3Kd9CIi0i1lvZweQJLISKbfuw/s4VZ2+NdecWJwrFtLg8JJa4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\Trabalho Prático 1 - Etapa 2\\Trabalho Prático 1 - Etapa 2\\Trabalho Prático 1 - Etapa 2.csproj",
   "expectedPackageFiles": [
@@ -235,10 +235,10 @@
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\fiscal4\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
   ],
   "logs": []
 }
