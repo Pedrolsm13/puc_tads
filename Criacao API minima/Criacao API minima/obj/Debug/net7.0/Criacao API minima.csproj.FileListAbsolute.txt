@@ -1,0 +1,32 @@
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\appsettings.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Criacao API minima.exe
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Criacao API minima.deps.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Criacao API minima.runtimeconfig.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Criacao API minima.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Criacao API minima.pdb
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.AssemblyInfoInputs.cache
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.AssemblyInfo.cs
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets\msbuild.Criacao API minima.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets\msbuild.build.Criacao API minima.props
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Criacao API minima.props
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Criacao API minima.props
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\scopedcss\bundle\Criacao API minima.styles.css
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\refint\Criacao API minima.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.pdb
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.genruntimeconfig.cache
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\ref\Criacao API minima.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao API minima.csproj.AssemblyReference.cache
+C:\Users\fiscal4\source\repos\Criacao API minima\Criacao API minima\obj\Debug\net7.0\Criacao .3F201F3B.Up2Date

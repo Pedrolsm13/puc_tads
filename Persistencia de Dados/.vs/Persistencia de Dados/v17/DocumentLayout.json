@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5658B931-95D5-4CF1-89F7-395ED9801AFC}|Persistencia de Dados\\Persistencia de Dados.csproj|c:\\users\\fiscal4\\source\\repos\\persistencia de dados\\persistencia de dados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5658B931-95D5-4CF1-89F7-395ED9801AFC}|Persistencia de Dados\\Persistencia de Dados.csproj|solutionrelative:persistencia de dados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240907163508_persistencia.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs",
+              "RelativeToolTip": "Persistencia de Dados\\Migrations\\20240907163508_persistencia.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:35:08.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\Persistencia de Dados\\Program.cs",
+              "RelativeDocumentMoniker": "Persistencia de Dados\\Program.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\Persistencia de Dados\\Persistencia de Dados\\Program.cs",
+              "RelativeToolTip": "Persistencia de Dados\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:27:23.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

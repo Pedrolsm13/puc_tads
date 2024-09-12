@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|c:\\users\\fiscal4\\source\\repos\\criacao api minima\\criacao api minima\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|solutionrelative:criacao api minima\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|c:\\users\\fiscal4\\source\\repos\\criacao api minima\\criacao api minima\\tododb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|solutionrelative:criacao api minima\\tododb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|c:\\users\\fiscal4\\source\\repos\\criacao api minima\\criacao api minima\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CEE49-E583-45D9-AC77-5D83E0E503B3}|Criacao API minima\\Criacao API minima.csproj|solutionrelative:criacao api minima\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoDb.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\TodoDb.cs",
+              "RelativeDocumentMoniker": "Criacao API minima\\TodoDb.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\TodoDb.cs",
+              "RelativeToolTip": "Criacao API minima\\TodoDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T21:47:30.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\Todo.cs",
+              "RelativeDocumentMoniker": "Criacao API minima\\Todo.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\Todo.cs",
+              "RelativeToolTip": "Criacao API minima\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T21:38:25.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\Program.cs",
+              "RelativeDocumentMoniker": "Criacao API minima\\Program.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\Criacao API minima\\Criacao API minima\\Program.cs",
+              "RelativeToolTip": "Criacao API minima\\Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T21:26:34.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

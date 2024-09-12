@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Persistencia de dados API.props" />
+</Project>
