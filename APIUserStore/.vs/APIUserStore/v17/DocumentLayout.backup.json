@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\models\\userstoredatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\models\\userstoredatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|c:\\users\\fiscal4\\workspace\\puc_tads\\apiuserstore\\apiuserstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99CF170D-6B21-4C27-9403-EC0CFFB524D9}|APIUserStore\\APIUserStore.csproj|solutionrelative:apiuserstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "APIUserStore\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "APIUserStore\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T20:24:56.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "APIUserStore\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Services\\UserService.cs",
+              "RelativeToolTip": "APIUserStore\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T19:57:05.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Program.cs",
+              "RelativeDocumentMoniker": "APIUserStore\\Program.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Program.cs",
+              "RelativeToolTip": "APIUserStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T19:48:32.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserStoreDataBaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Models\\UserStoreDataBaseSettings.cs",
+              "RelativeDocumentMoniker": "APIUserStore\\Models\\UserStoreDataBaseSettings.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Models\\UserStoreDataBaseSettings.cs",
+              "RelativeToolTip": "APIUserStore\\Models\\UserStoreDataBaseSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T19:45:42.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\appsettings.json",
+              "RelativeDocumentMoniker": "APIUserStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\appsettings.json",
+              "RelativeToolTip": "APIUserStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-24T19:37:50.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APIUserStore\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\Workspace\\puc_tads\\APIUserStore\\APIUserStore\\Models\\User.cs",
+              "RelativeToolTip": "APIUserStore\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T19:24:30.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|c:\\users\\fiscal4\\source\\repos\\apiuser\\apiuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|solutionrelative:apiuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|c:\\users\\fiscal4\\source\\repos\\apiuser\\apiuser\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|solutionrelative:apiuser\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|c:\\users\\fiscal4\\source\\repos\\apiuser\\apiuser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8E8993-4E88-4E0E-942A-C3EFB779B481}|APIUser\\APIUser.csproj|solutionrelative:apiuser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APIUser\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Models\\User.cs",
+              "RelativeToolTip": "APIUser\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:23:35.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Program.cs",
+              "RelativeDocumentMoniker": "APIUser\\Program.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Program.cs",
+              "RelativeToolTip": "APIUser\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:14:38.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "APIUser\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fiscal4\\source\\repos\\APIUser\\APIUser\\Controllers\\UserController.cs",
+              "RelativeToolTip": "APIUser\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:58:34.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
