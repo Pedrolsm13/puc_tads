@@ -1,0 +1,554 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(60, 113, 129, 0.507);
+}
+
+.prod{
+  display: list-item;
+}
+
+#apagar{
+  display: none;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5px;
+  background-color: rgba(60, 113, 129, 0.507) !important;
+  opacity: 90%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: right;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header img {
+  max-width: 100%;
+  display: flex;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: topper;
+  padding: 5px;
+}
+
+.welcome {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: left;
+  font-size: medium;
+
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+#pesquisa-rapida {
+  width: 23%;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#carouselExample {
+  width: 75%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#carouselExample img {
+  border-radius: 5px;
+}
+
+main h2 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+}
+
+.caixa-pesquisa {
+  width: auto;
+}
+
+.botao_ok {
+  border-radius: 30px;
+}
+
+.texto_pesquisa {
+  border-radius: 30px;
+  width: auto;
+}
+
+#cb2 {
+  font-size: medium;
+
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: topper;
+  padding: 0px;
+}
+
+#cb2 p {
+  font-size: smaller;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  justify-content: space-between;
+  align-items: topper;
+  padding: 20px;
+  max-width: 800px;
+  width: 75%;
+  float: left;
+  font-size: small;
+  text-align: center;
+  min-height: 860px;
+}
+
+.flex>div {
+  flex: 0 1 150px;
+  margin-top: 15px;
+}
+
+.flex img {
+  max-width: 100%;
+  display: block;
+  height: 150px;
+  width: 130px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(214, 228, 240);
+  border-radius: 20px;
+}
+
+.flex a {
+  color: whitesmoke;
+  text-decoration: none !important;
+}
+
+form {
+  text-align: auto;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: lightgray;
+  opacity: 90%;
+  font-size: small;
+  align-items: center;
+  max-width: 4.5cm;
+  min-width: 4.5cm;
+  border-radius: 5px;
+  display: block;
+}
+
+select {
+  width: 100%;
+  opacity: 80%;
+}
+
+.form p {
+  font-size: small;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.form h3 {
+  margin: 5px auto;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+}
+
+.form input {
+  width: 100%;
+  margin: auto;
+}
+
+#price div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 40%;
+}
+
+#test {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#price input {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#price label {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#price .left {
+  float: left;
+}
+
+#price .right {
+  float: right;
+}
+
+section {
+  color: whitesmoke;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  max-width: 300px;
+  width: 25%;
+  float: right;
+}
+
+aside h3 {
+  margin: 5px auto;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+  margin-bottom: 15px;
+}
+
+aside div {
+  clear: both;
+  padding: 5px;
+  background-color: lightgray;
+  opacity: 90%;
+  font-size: small;
+  align-items: center;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.mais_vistos img {
+  max-width: 100%;
+  display: block;
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.noticias .email {
+  width: 100%;
+}
+
+.noticias input {
+  float: right;
+  width: 100%;
+}
+
+.mais_vistos input {
+  float: right;
+}
+
+.estrelas {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.estrelas input[type=radio] {
+  display: none;
+}
+
+.estrelas label i.fa:before {
+  content: '\2605';
+  /*★*/
+  color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+  color: #CCC;
+}
+
+.mais_vistos {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+.noticias {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+aside a {
+  text-decoration: none;
+  color: rgb(219, 17, 10);
+}
+
+footer {
+  color: whitesmoke;
+  width: 100%;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+footer div {
+  width: 100%;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: medium;
+  text-align: center;
+}
+
+footer img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.rod {
+  font-size: small;
+  align-items: center;
+  color: whitesmoke;
+  text-align: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.links{
+  margin: 0px;
+  padding: 0px;
+}
+
+.links li{
+  list-style: none;
+  font-size: small;
+  margin: 5px;
+}
+
+.links a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.contato{
+  font-size: small;
+  margin: 5px;
+}
+
+.flex_detalhes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  justify-content: space-between;
+  align-items: topper;
+  padding: 0px 5px 0px;
+  max-width: 800px;
+  width: 75%;
+  float: left;
+  font-size: small;
+  text-align: left;
+  min-height: 860px;
+}
+
+.flex_detalhes>div {
+  margin-top: 15px;
+}
+
+.flex_detalhes img {
+  max-width: 100%;
+  display: block;
+  height: 150px;
+  width: 130px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(214, 228, 240);
+  border-radius: 20px;
+}
+
+.flex_detalhes a {
+  color: whitesmoke;
+  text-decoration: none !important;
+}
+
+@media screen and (min-width:860px) {
+  html {
+    max-width: 860px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:710px) {
+  #carouselExample {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #pesquisa-rapida {
+    width: 100%;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  form {
+    text-align: auto;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: lightgray;
+    opacity: 90%;
+    font-size: small;
+    align-items: center;
+    max-width: 4.5cm;
+    border-radius: 5px;
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:580px) and (min-width:465px) {
+  .noticias input {
+    font-size: xx-small;
+  }
+}
+
+@media screen and (max-width:464px) {
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    float: center;
+  }
+
+  #lado{
+    float: center;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    float: center;
+    font-size: small;
+    text-align: center;
+  }
+  .flex_detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: space-between;
+    align-items: topper;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    float: center;
+    font-size: small;
+    text-align: left;
+    min-height: 860px;
+  }
+
+}
+
+@media screen and (max-width:336px) {
+  #cb2 {
+    font-size: medium;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: topper;
+    padding: 0px;
+  }
+
+  #cb2 p {
+    font-size: small;
+  }
+
+  .menu {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: right;
+  }
+
+  .menu li {
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

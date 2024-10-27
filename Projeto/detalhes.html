@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja do Pedro Lucas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body onload="init(),detalhes_produto()">
+  <header class="header">
+    <a href="index.html"><img id="cb0" src="img/log.png" height="100" width="130"></a>
+    <div id="cb1">
+      <h1 class="welcome">Bem Vindo a Loja<br>Aluno: Pedro Lucas Serra Moura<br>Matricula: 809342<br>Analise e Desenvolvimento de sistemas</h1>
+      <br>
+    </div>
+    <div id="cb2">
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Entrar</a> </li>
+          <li><a href="#">Registrar</a> </li>
+          <li><a href="#">Pedidos</a></li>
+        </ul>
+      </nav>
+      <br>
+      <div class="info">
+        <p>Pagamento na entrega | 30 dias de devolução<br>Atendimento ao cliente 0800 353 9709</p>
+        <a href="#"><img id="cb0" src="img/carrinho.png" height="45" width="50"></a>
+      </div>
+    </div>
+  </header>
+    <section class="flex_detalhes">
+      <div class="container-fluid" id="tela_detalhes">
+        
+      </div>
+    </section>
+  </main>
+
+  <aside id="lado">
+    <div class="mais_vistos">
+      <h3>Itens mais visitados</h3>
+      <div id="mais_vistos">
+
+      </div>
+      <br>
+      <input type="submit" value="Veja mais" />
+    </div>
+
+    <div class="noticias">
+      <h3>Notícias</h3>
+      <p>Inscreva-se para receber noticias!</p>
+      <input class="email" type="text" id="iprice" name="iprice">
+      <input type="submit" value="Inscreva-se agora" />
+    </div>
+  </aside>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col sm-3">
+        <h3>Métodos de Pagamento</h3>
+        <img src="img/visa.png"><br>
+        <img src="img/master.png"><br>
+        <img src="img/amex.png" height="48" width="48">
+      </div>
+      <div class="col sm-3">
+        <h3>Links Rápidos</h3>
+        <ul class="links">
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Política de Envio</a></li>
+          <li><a href="#">Cancelamento & Devoluções</a></li>
+          <li><a href="#">Perguntas Frequentes</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Isenção de Responsabilidade</a></li>
+        </ul>
+      </div>
+      <div class="col sm-3">
+        <h3>Rede Social</h3>
+        <img src="img/face.png"><br>
+        <img src="img/twitter.png"><br>
+        <img src="img/google.png">
+      </div>
+      <div class="col sm-3">
+        <h3>Contate-nos</h3>
+        <div class="contato">
+        <p>Rua rio de janeiro nº 1005, Centro, Belo horizonte - Minas Gerais</p>
+        <img src="img/email.png">contato@lojamoura.com
+        <img src="img/tel.png">31 3232-2222
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <p class="rod">© Copyright 2023-2023 Pedro Lucas Serra Moura</p>
+</footer>
+  <script src="detalhe_prod.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

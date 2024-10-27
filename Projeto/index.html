@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja do Pedro Lucas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body onload="init()">
+  <header class="header">
+    <a href="index.html"><img id="cb0" src="img/log.png" height="100" width="130"></a>
+    <div id="cb1">
+      <h1 class="welcome">Bem Vindo a Loja<br>Aluno: Pedro Lucas Serra Moura<br>Matricula: 809342<br>Analise e Desenvolvimento de sistemas</h1>
+      <br>
+      <div class="caixa-pesquisa">
+        <input type="text" class="texto_pesquisa" id="text_pesq">
+        <button id="barra_pesquisa" onclick="buscar()" class="botao_ok">Buscar</button>
+        <!--<input type="text" class="texto_pesquisa" onkeyup="buscar()" id="text_pesq">
+        <button id="barra_pesquisa" class="botao_ok">Buscar</button>-->
+      </div>
+    </div>
+    <div id="cb2">
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Entrar</a> |</li>
+          <li><a href="#">Registrar</a> |</li>
+          <li><a href="#">Minha Conta</a> |</li>
+          <li><a href="#">Pedidos</a></li>
+        </ul>
+      </nav>
+      <br>
+      <div class="info">
+        <p>Pagamento na entrega | 30 dias de devolução<br>Atendimento ao cliente 0800 353 9709</p>
+        <a href="#"><img id="cb0" src="img/carrinho.png" height="45" width="50"></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="main">
+
+      <div id="pesquisa-rapida">
+        <form class="form">
+          <h3>Pesquisa Rápida</h3>
+          <p>Encontre seu produto no preço desejado</p>
+          <select name="Categoria" id="cat" onchange="buscar2()">
+            <option value="Categoria">Categoria</option>
+            <option value="Sports Wear">Sports Wear</option>
+            <option value="Winterwear">Winterwear</option>
+            <option value="Casual Shoes">Casual Shoes</option>
+            <option value="Footwear">Footwear</option>
+            <option value="Formal Shoes">Formal Shoes</option>
+          </select>
+          <br><br>
+          <select name="Marca" id="mar" onchange="buscar3()">
+            <option value="Marca">Marca</option>
+            <option value="ADIDAS">ADIDAS</option>
+            <option value="Newfeel">Newfeel</option>
+            <option value="Nike">Nike</option>
+            <option value="Red Tape">Red Tape</option>
+            <option value="Reebok">Reebok</option>
+          </select>
+          <br><br>
+          <select name="Tipo" id="tip" onchange="buscar4()">
+            <option value="Tipo">Tipo</option>
+            <option value="Tshirts">Tshirts</option>
+            <option value="Jackets">Jackets</option>
+            <option value="Footwear">Footwear</option>
+            <option value="Swimwear">Swimwear</option>
+            <option value="Formal Shoes">Formal Shoes</option>
+            <option value="Casual Shoes">Casual Shoes</option>
+          </select>
+          <!--<div id="price">
+            <div class="left">
+              <label for="iprice">R$ inicial:</label><br>
+              <input type="text" id="iprice" name="iprice"><br>
+            </div>
+            <div class="right">
+              <label for="lprice">R$ final:</label><br>
+              <input type="text" id="lprice" name="lprice">
+            </div>
+          </div>-->
+          <br><br>
+          <a href="pesquisa.html"><button type="button" id="test" value="Buscar">Busca Avançada</button></a>
+        </form>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!--<div class="carousel-item active">
+            <img src="https://source.unsplash.com/random/900x350?shoes=1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/900x350?sports=2" class="d-block w-100" alt="...">
+          </div>-->
+          <div class="carousel-item">
+            <img src="img/img1.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </nav>
+
+    <section class="flex" id="tela">
+
+    </section>
+  </main>
+
+  <aside id="lado">
+    <div class="mais_vistos">
+      <h3>Itens mais visitados</h3>
+      <div id="mais_vistos">
+
+      </div>
+      <br>
+      <input type="submit" value="Veja mais" />
+    </div>
+
+    <div class="noticias">
+      <h3>Notícias</h3>
+      <p>Inscreva-se para receber noticias!</p>
+      <input class="email" type="text" id="iprice" name="iprice">
+      <input type="submit" value="Inscreva-se agora" />
+    </div>
+  </aside>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col sm-3">
+        <h3>Métodos de Pagamento</h3>
+        <img src="img/visa.png"><br>
+        <img src="img/master.png"><br>
+        <img src="img/amex.png" height="48" width="48">
+      </div>
+      <div class="col sm-3">
+        <h3>Links Rápidos</h3>
+        <ul class="links">
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Política de Envio</a></li>
+          <li><a href="#">Cancelamento & Devoluções</a></li>
+          <li><a href="#">Perguntas Frequentes</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Isenção de Responsabilidade</a></li>
+        </ul>
+      </div>
+      <div class="col sm-3">
+        <h3>Rede Social</h3>
+        <img src="img/face.png"><br>
+        <img src="img/twitter.png"><br>
+        <img src="img/google.png">
+      </div>
+      <div class="col sm-3">
+        <h3>Contate-nos</h3>
+        <div class="contato">
+        <p>Rua rio de janeiro nº 1005, Centro, Belo horizonte - Minas Gerais</p>
+        <img src="img/email.png">contato@lojamoura.com
+        <img src="img/tel.png">31 3232-2222
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <p class="rod">© Copyright 2023-2023 Pedro Lucas Serra Moura</p>
+</footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
