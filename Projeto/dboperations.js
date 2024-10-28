@@ -16,7 +16,7 @@ async function updateProduto(produto) {
     try{
         let pool = await sql.connect(config);
         let loja = await pool.request()
-        .input('input_parameter', sql.int, produto.id)
+        .input('input_parameter', sql.Int, produto.id)
         .query(`UPDATE [dbo].[produtos]
             SET
             [nome] = '${produto.nome}',
@@ -40,7 +40,7 @@ async function getproduto(produtoid) {
     try{
         let pool = await sql.connect(config);
         let lojas = await pool.request()
-        .input('input_parameter', sql.int, produtoid)
+        .input('input_parameter', sql.Int, produtoid)
         .query("SELECT * from produtos WHERE ID = @input_parameter");
         return lojas.recordsets;
     }
@@ -53,8 +53,8 @@ async function delproduto(produtoid) {
     try{
         let pool = await sql.connect(config);
         let lojas = await pool.request()
-        .input('input_parameter', sql.int, produtoid)
-        .query("DELETE * from [dbo].[produtos] WHERE ID = @input_parameter");
+        .input('input_parameter', sql.Int, produtoid)
+        .query("DELETE FROM [dbo].[produtos] WHERE ID = @input_parameter");
         return lojas.recordsets;
     }
     catch(error){
@@ -67,14 +67,15 @@ async function addproduto(produto) {
         let pool = await sql.connect(config);
         let lojas = await pool.request()
         .query(`INSERT INTO [dbo].[produtos](
+            [id],
             [nome],
             [cod_prod],
             [preco],
-            [descricao]',
-            [quantidade]',
-            [avaliacao]',
-            [categoria]',
-            [imagem]'
+            [descricao],
+            [quantidade],
+            [avaliacao],
+            [categoria],
+            [imagem]
         )VALUES(
             '${produto.id}',
             '${produto.nome}',
@@ -93,10 +94,25 @@ async function addproduto(produto) {
     }
 }
 
+async function getprodutosPorCategoria(categoria) {
+    try {
+        let pool = await sql.connect(config);
+        let lojas = await pool.request()
+            .input('input_parameter', sql.VarChar, categoria) // Use VarChar para categoria
+            .query("SELECT * FROM produtos WHERE categoria = @input_parameter");
+        return lojas.recordsets; // Retorna todos os produtos encontrados
+    } catch (error) {
+        console.log(error);
+        throw error; // Lança o erro para o controlador
+    }
+}
+
+
 module.exports = {
     getprodutos: getprodutos,
     updateProduto: updateProduto,
     getproduto: getproduto,
     delproduto: delproduto,
-    addproduto: addproduto
+    addproduto: addproduto,
+    getprodutosPorCategoria: getprodutosPorCategoria
 }

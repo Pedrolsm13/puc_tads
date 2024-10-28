@@ -18,7 +18,7 @@ router.use((request, response, next)=>{
     next();
 })
 
-/*router.route('/produtos').get((request, response) => {
+router.route('/produtos').get((request, response) => {
     dboperations.getprodutos().then(result => {
         if (result && result.length > 0) {
             response.json(result[0]);
@@ -29,15 +29,15 @@ router.use((request, response, next)=>{
         console.error('Erro ao buscar produtos:', error);
         response.status(500).json({ message: 'Erro ao buscar produtos.' });
     });
-});*/
+});
 
-router.route('/produtos').get((request, response) =>{
+/*router.route('/produtos').get((request, response) =>{
     dboperations.getprodutos().then(result =>{
         response.json(result[0]);
     })
-})
+})*/
 
-router.route('/produtos/:id').patch((request, response)=>{
+router.route('/produtos').patch((request, response)=>{
     let produto = {...request.body}
 
     dboperations.updateProduto(produto).then(result =>{
@@ -46,7 +46,7 @@ router.route('/produtos/:id').patch((request, response)=>{
 })
 
 router.route('/produtos/:id').get((request, response)=>{
-    dboperations.getprodutos(request.params.id).then(result =>{
+    dboperations.getproduto(request.params.id).then(result =>{
         response.json(result[0]);
     })
 })
@@ -64,6 +64,20 @@ router.route('/produtos').post((request, response)=>{
         response.status(201).json(result);
     })
 })
+
+router.route('/produtos/categoria/:categoria').get((request, response) => {
+    dboperations.getprodutosPorCategoria(request.params.categoria).then(result => {
+        if (result && result.length > 0) {
+            response.json(result[0]); // Retorna todos os produtos encontrados na categoria
+        } else {
+            response.status(404).json({ message: 'Nenhum produto encontrado para a categoria informada.' });
+        }
+    }).catch(error => {
+        console.error('Erro ao buscar produtos por categoria:', error);
+        response.status(500).json({ message: 'Erro ao buscar produtos por categoria.' });
+    });
+});
+
 
 var port = process.env.PORT || 8090;
 app.listen(port);
