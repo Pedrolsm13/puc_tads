@@ -2,7 +2,7 @@ const config = {
     server: 'localhost',
     authentication: {
         type: 'default',
-        opitions: {
+        options: {
             userName: 'sa',
             password: 'teste123'
         }
@@ -11,7 +11,7 @@ const config = {
         encrypt: false,
         database: 'Lojas'
     },
-    port: 50666
+    port: 56086
 }
 
 module.exports = config;
