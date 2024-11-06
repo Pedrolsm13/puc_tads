@@ -11,7 +11,7 @@ const config = {
         encrypt: false,
         database: 'Lojas'
     },
-    port: 56086
+    port: 50666
 }
 
 module.exports = config;
