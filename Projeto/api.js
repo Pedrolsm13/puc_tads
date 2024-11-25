@@ -45,6 +45,14 @@ router.route('/produtos').patch((request, response)=>{
     })
 })
 
+router.route('/produtos/:id').put((request, response)=>{
+    let produto = {...request.body}
+
+    dboperations.updateProduto(produto).then(result =>{
+        response.status(204).json(result);
+    })
+})
+
 router.route('/produtos/:id').get((request, response)=>{
     dboperations.getproduto(request.params.id).then(result =>{
         response.json(result[0]);
